@@ -26,8 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// Make a variable called name and set it equal to 'Dane' 
+// Then we check if name variable is equal to 'Mary'. 
+// if so, console.log will say 'Hi,Mary!' but if else the console.log would say 'how do you do?'
 // 
 //
 
@@ -45,10 +46,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make two variables, secret and code. secret has no value and code equals 123
+// We start our first if statement to check the condition : code is equal 123, which is true.
+// Then if the condition is true, secret will equal the value of 'super' and code will equal the value of code multiplied by 2
+// Our second if statement condition is, if the value of code is greater than 250
+// if the second condition is true the value of secret will equal 'duper'
+// the second condition is false so the console will log the first if statement which logs 'super'.
+
 
 //CODE
 /*
@@ -70,10 +74,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We start by setting three variables isStudent = true, age =34, and zip =55407
+// We check if isStudent equals true and zip is greater than 80000 the console would log 'you're a student from the west coast'.
+// Then we check if isStudent is false or age is less than 30. console would log 'what are your hobbies?' 
+// Then check if isStudent equals true, console will log 'Welcome to Prime'
+// if none of the if statements are correct the console will log 'How about the weather?'
+// console logs 'Welcome to Prime'
+
 
 //CODE
 /*
@@ -137,6 +144,8 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
+
+// Fix colorOne ='blue' and colorTwo = 'red'. Mix is true so we need colorTwo = 'purple'
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -151,6 +160,8 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+
+// Fix || to && the question says "and"
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -167,3 +178,5 @@ if(minAge <= age) {
 }
 */
 
+// Fix switch minAge <= age to Age >= minAge
+//Also, switch the console statements because age is greater than 21, the condition is true and the console log will log 'enter.
